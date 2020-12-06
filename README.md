@@ -19,7 +19,7 @@ took their averages.
 
 2. Trained the model on KITTI dataset for 100 epochs
 
-3. After each epoch, the weights get saved in trained_model/trained_model.h5
+3. After each epoch, the weights get saved in Road-Segmentation/trained_model/trained_model.h5
 
 4. The trained model was used to predict the segmentation masks. For each segmentation mask, the region between detected lanes was extracted and saved as a mask image.
 
